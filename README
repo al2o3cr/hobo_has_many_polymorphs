@@ -1,3 +1,23 @@
+Hobo_has_many_polymorphs
+
+== About
+
+See the full release notes below.
+
+== Hobo-specific
+
+* Tested against Hobo 0.7.5 and Rails 2.0.2. 
+* Change: ignore missing tables in build_table_aliases, to allow the migration generator to work.
+
+== TODO
+
+* test against edge Hobo and Rails 2.1
+* modify tagging generator - add hobo_model declarations
+* hobo_model_controller support for tagging in generated views
+* more testing
+
+
+== Original README
 
 Has_many_polymorphs
 
